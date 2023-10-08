@@ -1,4 +1,4 @@
-if (window.innerWidth <= 600) { // Rediriger si la largeur de l'écran est inférieure ou égale à 600 pixels
+if (window.innerWidth <= 1080) { // Rediriger si la largeur de l'écran est inférieure ou égale à 600 pixels
     window.location.href = "mobile/mobile.html";
 }
 
@@ -65,17 +65,4 @@ document.addEventListener("DOMContentLoaded", function () {
             reservationForm.scrollIntoView({ behavior: "smooth" });
         });
     });
-});
-
-
-
-//version mobile
-
-// Récupérez le bouton et la navbar
-const navToggle = document.getElementById('nav-toggle');
-const navbar = document.getElementById('navbar');
-
-// Ajoutez un gestionnaire d'événements au bouton
-navToggle.addEventListener('click', () => {
-    navbar.classList.toggle('show'); // Ajoutez ou supprimez la classe 'show' pour afficher ou masquer la navbar
 });
