@@ -1,0 +1,125 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #F5EFE6;
+    /*background-color: #eff0f3;*/
+}
+
+img{
+    width: 80%;
+}
+
+/* Styles pour le titre de bienvenue */
+header {
+    background-color: #F5EFE6;
+    /*color: #BDA18A;*/
+    color: #C49D43;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.titre-baskerville {
+    font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*Navbar*/
+/* Styles pour le bouton */
+#nav-toggle {
+    display: none; /* Par défaut, masquez le bouton */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour la navbar déroulante */
+#navbar {
+    display: none; /* Par défaut, masquez la navbar */
+    background-color: #F5EFE6;
+    /* Autres styles de votre navbar */
+}
+
+/* Styles pour les liens de la navbar */
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Media query pour rendre le bouton visible sur les petits écrans */
+@media (max-width: 768px) {
+    #nav-toggle {
+        display: block; /* Affichez le bouton sur les petits écrans */
+    }
+    #navbar {
+        position: absolute;
+        top: 60px; /* Ajustez la distance par rapport au haut de la page si nécessaire */
+        right: 20px; /* Ajustez la distance par rapport à la droite de la page si nécessaire */
+        background-color: #F5EFE6;
+        z-index: 1;
+    }
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar.show {
+        display: block; /* Affichez la navbar lorsque le bouton est cliqué */
+    }
+    #species-navbar{
+        display : none;
+    }
+}
+
+
+
+/*Page d'accueil*/
+.presentation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.presentation-content {
+    max-width: 800px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+}
+
+.presentation-image {
+    margin-top: 20px; /* Espace entre le texte et l'image */
+}
+
+.presentation-content h2{
+    font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 20px;
+}
+
+.presentation-content p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.presentation-chiots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

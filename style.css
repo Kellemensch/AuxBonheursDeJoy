@@ -1,0 +1,645 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #F5EFE6;
+    /*background-color: #eff0f3;*/
+}
+
+img{
+    width: 100%;
+}
+
+/* Styles pour le titre de bienvenue */
+header {
+    background-color: #F5EFE6;
+    /*color: #BDA18A;*/
+    color: #C49D43;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titre-baskerville {
+    font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*Styles pour le texte dans body*/
+
+
+/* Styles pour la barre de navigation */
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar {
+    font-family: 'Playfair Display', serif; 
+    background-color: #F5EFE6;
+    /*border-bottom: 1px solid #ccc;*/
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Barre de navigation des especes*/
+
+#species-navbar {
+    font-family: 'Playfair Display', serif;
+    background-color: #F5EFE6;
+    /*border-bottom: 1px solid #ccc;*/
+    text-align: center;
+    z-index: 1;
+}
+
+#species-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#species-navbar li {
+    margin: 0 15px;
+}
+
+#species-navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Présentation de l'accueil avec image */
+
+.presentation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.presentation-chiots {
+    display: flex;
+    flex-direction: row-reverse; /* Inverse l'ordre des éléments */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.presentation-content {
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+
+.presentation-content h2 {
+    font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.presentation-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.presentation-image {
+    flex-basis: 40%;
+}
+
+.presentation-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Page des chiens */
+.no-css-link {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container-pub1 {
+  width: 100%;
+  height: 500px;
+  background-image: url('Images/joy_muret.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-pub2 {
+  width: 100%;
+  height: 500px;
+  background-image: url('Images/yukidebout.jpeg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-pub3 {
+  width: 100%;
+  height: 500px;
+  background-image: url('Images/joy_muret.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-pub4 {
+  width: 100%;
+  height: 500px;
+  background-image: url('Images/yuki_doudou.PNG');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.container-pub5 {
+  width: 100%;
+  height: 500px;
+  background-image: url('Images/chiotsetfemelle.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.0);
+  width: 70%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.definition {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/*note descriptive des chiens*/
+/* Décrire l'animation */
+@keyframes slideDownFadeIN {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Foncer l'arrière-plan de la fenêtre modale */
+.modal {
+  display: none; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+/* Afficher la fenêtre modale lorsqu'elle est ciblée par un lien supprimer */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* la fenêtre modale  */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Le contenu de la modale */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  animation-name: slideDownFadeIN;
+  animation-duration: 0.5s;
+}
+
+/* Bouton servant à fermer la fenêtre modale */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+
+
+/*style de la grille d'images*/
+.grille-images {
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 1.5fr;
+    grid-template-rows: repear(6, 1fr);
+    font-size: 2em;
+    text-align: center;
+    grid-gap: 50px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    max-height: 2000px;
+}
+
+.im {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.im1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    min-height: 100px;
+}
+
+.im2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    min-height: 100px;
+}
+
+.im3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    min-height: 100px;
+}
+
+.im4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    min-height: 100px;
+}
+
+.im5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    min-height: 100px;
+}
+
+.im1,
+.im2,
+.im3,
+.im4,
+.im5 {
+  position: relative;
+/*   min-height: 0px; */
+}
+
+.im1 img,
+.im2 img,
+.im3 img,
+.im4 img,
+.im5 img, {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+/*Page des chiots*/
+.puppy-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.puppy-image {
+    flex-basis: 15%; /* Réglez la taille de l'image */
+    margin-right: 20px; /* Ajoutez un espace entre l'image et les informations */
+}
+
+.puppy-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.puppy-info {
+    flex-grow: 1;
+}
+
+.reservation-actions {
+    flex-basis: 15%; /* Réglez la taille des actions de réservation */
+    text-align: center;
+}
+
+.chiot {
+    font-family: 'Baskerville', serif; 
+    font-style: italic;
+    font-weight: 600; /* Correspond au poids SemiBold */
+    font-size: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.couple-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px; /* Ajoutez un espace entre les images */
+}
+
+.couple-image {
+    width: 30%; /* Réglez la largeur des images */
+    max-width: 100%; /* Assurez-vous qu'elles ne dépassent pas leur taille d'origine */
+    height: auto; /* Laissez la hauteur s'ajuster proportionnellement */
+}
+
+.couple-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px; /* Ajoutez un espace entre les images */
+}
+
+.container-couple1,
+.container-couple2 {
+    width: calc(50% - 10px); /* 50% pour chaque image moins l'espace entre elles */
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden; /* Assurez-vous que le texte ne déborde pas */
+}
+
+.container-couple1 {
+  background-image: url('Images/joy_muret.png');
+}
+
+.container-couple2 {
+  background-image: url('Images/yuki_assis.png');
+}
+
+.chiots-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.chiot-card {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chiot-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.prix {
+    font-weight: bold;
+    color: #e44d26; /* Couleur pour mettre en évidence le prix */
+    margin-top: 10px;
+}
+
+.reservation-button {
+    display: inline-block;
+    background-color: #e44d26;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reservation-button:hover {
+    background-color: #c43319;
+}
+
+
+.available-puppies {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.available-puppies h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.puppies-list {
+    list-style: none;
+    padding: 0;
+}
+
+.puppies-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.available {
+    background-color: #c2e0c6; /* Couleur pour les noms disponibles */
+    color: #245832;
+}
+
+.not-available {
+    background-color: #f3c2c2; /* Couleur pour les noms non disponibles */
+    color: #823232;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles pour le formulaire */
+.contact-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+/*Pied de page avec réseaux sociaux*/
+
+footer {
+    /*background-color: #333;*/
+    background-color: #D5CABC;
+    color: black;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact,
+.social-media {
+    flex-basis: calc(50% - 20px);
+}
+
+.contact h2,
+.social-media h2 {
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #f0f0f0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    /*background-color: #222;*/
+    background-color: #E8D5CC;
+    text-align: center;
+    padding: 10px 0;
+}

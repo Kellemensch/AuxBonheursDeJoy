@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fr">
+<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="google-site-verification" content="xyTEoRye4o0m6HI-1LmrzYFXuCAa9mOBjS2bIvwOYLc" />
+	<title>
+		Chiots | Aux bonheurs de Joy
+	</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="titre-baskerville">Les Chiots</h1>
+	</header>
+	<nav id="navbar">
+    	<ul>
+        	<li><a href="index.html">Accueil</a></li>
+        	<li><a href="chiens.html">Les chiens</a>
+        	</li>
+            <li><a href="chiots.html">Les chiots</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+	<main>
+
+		<h1 class="chiot">Aucun chiot disponible</h1>
+		
+<!--
+		<section>
+			<div class="couple-wrapper">
+			    <div class="im1 container-couple1">
+			        <div class="overlay">
+			            <p><a class="no-css-link" href="#">Joy</a></p>
+			            <p class="definition">La mère</p>
+			        </div>
+			    </div>
+			    <div class="im2 container-couple2">
+			        <div class="overlay">
+			            <p><a class="no-css-link" href="#">Yuki</a></p>
+			            <p class="definition">Le père</p>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="available-puppies">
+			    <h2>Chiots Disponibles</h2>
+			    <li class="available">
+		            <div class="puppy-container">
+		                <div class="puppy-image">
+		                    <img src="Images/yuki_doudou.PNG" alt="Chiot">
+		                </div>
+		                <div class="puppy-info">
+		                    <h3>Femelle 1</h3>
+		                    <p>Caractéristiques du chiot...</p>
+		                    <p class="prix">Prix : 1500 €</p>
+		                </div>
+		                <div class="reservation-actions">
+		                    <a href="#" class="reservation-button">Réserver</a>
+		                </div>
+		            </div>
+		        </li>
+		        <li class="not-available">
+		            <div class="puppy-container">
+		                <div class="puppy-image">
+		                    <img src="Images/yuki_assis.png" alt="Chiot">
+		                </div>
+		                <div class="puppy-info">
+		                    <h3>Femelle 1</h3>
+		                    <p>Caractéristiques du chiot...</p>
+		                    <p class="prix">Prix : 1500 €</p>
+		                </div>
+		                
+		                <div class="reservation-actions">
+		                	<a href="#" class="reservation-button">Réserver</a> 
+		                </div>
+		            </div>
+		        </li>
+			    <li class="available">
+		            <div class="puppy-container">
+		                <div class="puppy-image">
+		                    <img src="Images/joy_muret.png" alt="Chiot">
+		                </div>
+		                <div class="puppy-info">
+		                    <h3>Femelle 3</h3>
+		                    <p>Caractéristiques du chiot...</p>
+		                    <p class="prix">Prix : 1500 €</p>
+		                </div>
+		                <div class="reservation-actions">
+		                    <a href="#" class="reservation-button">Réserver</a>
+		                </div>
+		            </div>
+		        </li>
+			    <li class="available">
+		            <div class="puppy-container">
+		                <div class="puppy-image">
+		                    <img src="Images/joy_couchee.png" alt="Chiot">
+		                </div>
+		                <div class="puppy-info">
+		                    <h3>Mâle 1</h3>
+		                    <p>Caractéristiques du chiot...</p>
+		                    <p class="prix">Prix : 1500 €</p>
+		                </div>
+		                <div class="reservation-actions">
+		                    <a href="#" class="reservation-button">Réserver</a>
+		                </div>
+		            </div>
+		        </li>
+			    <li class="not-available">
+		            <div class="puppy-container">
+		                <div class="puppy-image">
+		                    <img src="Images/yuki_assis.png" alt="Chiot">
+		                </div>
+		                <div class="puppy-info">
+		                    <h3>Mâle 2</h3>
+		                    <p>Caractéristiques du chiot...</p>
+		                    <p class="prix">Prix : 1500 €</p>
+		                </div>
+		                <div class="reservation-actions">
+		                    <a href="#" class="reservation-button">Réserver</a>
+		                </div>
+		            </div>
+		        </li>
+			    </ul>
+			</div>
+
+		</section>
+
+		<section id="reservation-form" class="contact-form hidden">
+		    <h2>Réserver un Chiot</h2>
+		    <form action="https://formspree.io/f/xgejkbrd" method="POST">
+			    <label for="nom">Nom :</label>
+			    <input type="text" id="nom" name="nom" required>
+			    
+			    <label for="email">Adresse Email :</label>
+			    <input type="email" id="email" name="email" required>
+			    
+			    <label for="message">Message : (Merci d'indiquer le numéro du chiot)</label>
+				<textarea id="message" name="message" required placeholder="Ajoutez ici votre message" maxlength="500"></textarea>
+
+			    <button type="submit">Envoyer</button>
+			</form>
+		</section>
+-->
+	</main>
+
+	<footer>
+    <div class="footer-content">
+        <div class="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou information, n'hésitez pas à nous contacter :</p>
+            <p>Email : <a href="mailto:auxbonheursdejoy@gmail.com"><i class="fas fa-envelope"></i> auxbonheursdejoy@gmail.com </a></p>
+        </div>
+        <div class="social-media">
+            <h2>Suivez-nous</h2>
+            <ul>
+                <!--<li><a href="https://www.facebook.com/jerry.gole/"><i class="fab fa-facebook"></i>Facebook</a></li>
+                <li><a href="https://twitter.com/bagnoIe"><i class="fab fa-twitter"></i>Twitter</a></li>-->
+                <li><a href="https://www.instagram.com/aux_bonheurs_de_joy/"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Aux Bonheurs de Joy. Tous droits réservés.</p>
+    </div>
+	</footer>
+	<script src="script.js"></script>
+
+</body>
+</html>
